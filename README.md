@@ -1,6 +1,10 @@
 # django_backend_food_order
 
-initial sql:
+This repository is currently incomplete
+
+
+
+The initial sql query generated within cmd via the model:
 
 BEGIN;
 --
@@ -21,7 +25,7 @@ CREATE TABLE "restaurants_order" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMEN
 CREATE TABLE "restaurants_restaurant" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "restaurant_name" varchar(100) NOT NULL);
 COMMIT;
 
-secondary sql:
+The second sql query:
 
 BEGIN;
 --
