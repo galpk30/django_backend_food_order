@@ -1,0 +1,11 @@
+<p>hello</p>
+
+{% if restaurants_list  %}
+    <ul>
+        {% for restaurant in restaurants_list %}
+            <li><a href="/restaurants/{{ restaurant.id }}/">{{ restaurant.restaurant_name }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No restaurants are currently available.</p>
+{% endif %}
